@@ -4,7 +4,7 @@ navbar:
   title: "Home"
   right:
     - text: "personalsite"
-      href: personal.html
+      href: personalsite.html
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>
     - icon: fa-github fa-lg
