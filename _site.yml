@@ -6,8 +6,8 @@ navbar:
     - text: "personalsite"
       href: personalsite.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:yinanwu2010@hotmail.com
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/yinanwu199/
 output:
   html_document

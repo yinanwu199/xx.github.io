@@ -1,12 +1,8 @@
 ---
-title: "About"
+title: "job"
 ---
 
-### About this site
+### resume
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
-
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
-
-
-2ß10- 201023 stisd
+2009- 2013 Bachelor
+2013- 2016 Master
