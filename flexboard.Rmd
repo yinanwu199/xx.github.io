@@ -29,7 +29,7 @@ data <- data %>%
         drop_na(tmax) %>%
         drop_na(prcp) %>%
         drop_na(tmin) %>%
-        filter(year >=2000) 
+        filter(year >=2005) 
 
 #scatterplots, line plots, bar plots, box plots
 ```
