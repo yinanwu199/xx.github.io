@@ -29,12 +29,12 @@ data <- data %>%
         drop_na(tmax) %>%
         drop_na(prcp) %>%
         drop_na(tmin) %>%
-        filter(year >=2005) 
+        filter(year >=2008) 
 
 #scatterplots, line plots, bar plots, box plots
 ```
 
-Column {data-width=650}
+Column {data-width=350}
 -----------------------------------------------------------------------
 
 ### Chart A
