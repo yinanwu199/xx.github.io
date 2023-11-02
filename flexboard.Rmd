@@ -51,13 +51,13 @@ Column {data-width=350}
 
 ```{r}
 data %>%
-  plot_ly(y = ~prcp, x = ~tmin, color = ~season, type = "scatter", colors = "viridis")
+  plot_ly(y = ~prcp, color = ~year, type = "violin", colors = "viridis")
 ```
 
 ### Chart C
 
 ```{r}
 data %>%
-  plot_ly(y = ~ id, color = ~season, type = "bar", colors = "viridis")
+  plot_ly(y = ~ tmax, x= ~ tmin, color = ~season, type = "scatter", colors = "viridis")
 ```
 
