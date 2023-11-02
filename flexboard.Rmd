@@ -29,6 +29,7 @@ data <- data %>%
         drop_na(tmax) %>%
         drop_na(prcp) %>%
         drop_na(tmin) %>%
+        drop_na(snow) %>%
         filter(year >=2008) 
 
 #scatterplots, line plots, bar plots, box plots
@@ -51,7 +52,7 @@ Column {data-width=350}
 
 ```{r}
 data %>%
-  plot_ly(y = ~prcp, color = ~year, type = "violin", colors = "viridis")
+  plot_ly(y = ~snow, color = ~year, type = "violin", colors = "viridis")
 ```
 
 ### Chart C
